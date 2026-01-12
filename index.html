@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Legal Consultancy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1 id="siteTitle">RPS Legal Consultancy</h1>
+    <button id="toggleLang">?????</button>
+    <nav>
+      <a href="#home" class="lang" data-en="Home" data-hi="????????">Home</a>
+      <a href="#about" class="lang" data-en="About" data-hi="????? ???? ???">About</a>
+      <a href="#services" class="lang" data-en="Services" data-hi="??????">Services</a>
+      <a href="#contact" class="lang" data-en="Contact" data-hi="?????? ????">Contact</a>
+    </nav>
+  </div>
+</header>
+
+
+<section id="home" class="hero">
+    <h2>Trusted Legal Advice, Anytime, Anywhere</h2>
+    <p>Professional online legal consultancy across India</p>
+    <a href="#contact" class="btn">Book a Consultation</a>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+        RPS Legal Consultancy provides reliable and confidential legal guidance
+        to individuals and businesses across India. We focus on practical,
+        ethical, and client-focused legal solutions.
+    </p>
+</section>
+
+<section id="services" class="section gray">
+    <h2>Our Services</h2>
+    <ul class="services">
+        <li>Legal Consultation & Advice</li>
+        <li>Contract Review & Drafting</li>
+        <li>Business & Startup Legal Support</li>
+        <li>Property & Real Estate Matters</li>
+        <li>Family & Civil Law Guidance</li>
+    </ul>
+</section>
+
+<section id="contact" class="section">
+    <h2>Book a Consultation</h2>
+
+    <!-- Formspree email form -->
+    <form id="contactForm" action="YOUR_FORMSPREE_URL" method="POST">
+         <input type="text" name="name" placeholder="Your Name" required>
+         <input type="email" name="email" placeholder="Your Email" required>
+         <input type="text" name="phone" placeholder="Your Phone Number" required>
+         <textarea name="message" placeholder="Your Legal Query" required></textarea>
+         <button type="submit">Submit</button>
+    </form>
+
+
+    <p class="or">OR</p>
+
+    <!-- WhatsApp button -->
+    <a href="https://wa.me/917379087528?text=Hello%20RPS%20Legal%20Consultancy,%20I%20need%20legal%20consultation." 
+       class="whatsapp" target="_blank">
+        Contact via WhatsApp
+    </a>
+</section>
+
+
+<section id="appointment" class="section gray">
+    <h2>Book an Appointment</h2>
+    <div class="calendly-inline-widget" 
+         data-url="https://calendly.com/rpsme2016/30min" 
+         style="min-width:320px;height:630px;"></div>
+</section>
+
+
+
+<footer>
+    <p>© 2026 RPS Legal Consultancy</p>
+    <p class="disclaimer">
+        Disclaimer: This website is for informational purposes only and does not
+        constitute legal advice under Indian law. No attorney-client relationship
+        is formed by using this website.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+
+</body>
+</html>
